@@ -13,11 +13,11 @@ class Calculator:
         if self.op2 != 0:
             return self.op1 / self.op2
 
-# Przykłady wywołania
-'''
-calculator = Calculator(5,0)
-print(calculator.sum())
-print(calculator.sub())
-print(calculator.mul())
-print(calculator.div())
-'''
+
+if __name__ == "__main__":
+    calculator = Calculator(5,0)
+    
+    print(calculator.sum())
+    print(calculator.sub())
+    print(calculator.mul())
+    print(calculator.div())
